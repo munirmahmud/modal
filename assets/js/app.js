@@ -34,4 +34,8 @@ modalWrapper.addEventListener('click', function(e) {
 	}
 });
 
-
+window.addEventListener('keydown', function(e) {
+	if (e.key === 'Escape') {
+		closeModal();
+	}
+})
