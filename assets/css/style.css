@@ -25,6 +25,11 @@ img {
 	border-radius: 5px;
 	min-height: 200px;
 	background: #fff;
+    transform: translateY(-200%);
+	transition: transform 0.3s;
+}
+.modal-wrapper.open .modal-body {
+	transform: translateY(0);
 }
 .modal-body img{
 	width: 100%;
