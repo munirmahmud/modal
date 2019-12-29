@@ -10,7 +10,7 @@ img {
     width: 100vw;
     top: 0;
     left: 0;
-    transition: opacity 0.3s;
+    transition: opacity 0.4s;
     opacity: 0;
     pointer-events: none;
 }
@@ -26,7 +26,7 @@ img {
 	min-height: 200px;
 	background: #fff;
     transform: translateY(-200%);
-	transition: transform 0.3s;
+	transition: transform 0.4s;
 }
 .modal-wrapper.open .modal-body {
 	transform: translateY(0);
