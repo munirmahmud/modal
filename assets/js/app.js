@@ -1,4 +1,5 @@
 const cardBtn = document.querySelectorAll('.card button');
+const cardImg = document.querySelectorAll('.card img');
 const modalWrapper = document.querySelector('.modal-wrapper');
 const modalBody = document.querySelector('.modal-body');
 
@@ -20,6 +21,7 @@ function handleCardButtonClick(e) {
 }
 
 cardBtn.forEach((button) => button.addEventListener('click', handleCardButtonClick));
+cardImg.forEach((img) => img.addEventListener('click', handleCardButtonClick));
 
 
 // Close the modal 
